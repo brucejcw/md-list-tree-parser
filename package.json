@@ -1,12 +1,16 @@
 {
   "name": "md-list-tree-parser",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "parse markdown list-style tree to json",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
-  "author": "bruce_jcw@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brucejcw/md-list-tree-parser.git"
+  },
+  "author": "bruce.jcw@gmail.com",
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^1.0.0"
